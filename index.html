@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+	<link rel= "stylesheet" type="text/css" href="assets/css/style.css"> 
+	<title>Hangman Game</title>
+
+<body>
+	<div class = "container wallpaper"> 
+		<div class = "row"> 
+			<h1>OPERATION HANGMAN CRISIS</h1>
+		</div>
+		<div class = "row">
+			<div class = "col-lg-6 leftpanel">
+				<div id= "canvas">
+				</div>
+				<div id= "facts">
+				</div>
+			</div>
+			<div class = "col-lg-6 rightpanel">
+				<p>Press Any Keys to Get Started!</p>
+				<p id="wins">Wins</p>
+				<p> Current Word</p>
+					<p id="word"></p>
+				<p id="guesses">Number of Guesses Remaining</p>
+				<p id="letters">Letters Already Guessed</p>
+			</div>
+		</div> 
+	<br>
+	<audio controls autoplay id="sound">
+ 		<source src="assets/images/sound.mp3" type="audio/mp3">
+		Your browser does not support the audio element.
+	</audio>
+	</div>
+<script src="assets/javascript/game.js"></script>
+</body>
+</html>
