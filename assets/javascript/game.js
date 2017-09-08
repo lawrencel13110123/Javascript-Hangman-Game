@@ -9,6 +9,7 @@ var imgSrc = ["assets/images/hero1.png", "assets/images/hero2.png", "assets/imag
 function reset() {
 	currentWord = wordBank [Math.floor(Math.random() * wordBank.length)]; 
 		console.log(currentWord);
+		//currentWord = wordBank[index #]
 	currentFacts = facts [Math.floor(Math.random() * facts.length)];
 		console.log(currentFacts); 
 	currentImg = imgSrc [Math.floor(Math.random() * imgSrc.length)];
